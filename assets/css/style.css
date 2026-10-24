@@ -62,6 +62,12 @@ body {
     letter-spacing: 0.2rem;
 }
 
+.heading-2 {
+    font-size: 4rem;
+    font-weight: 600;
+    width: 60%;
+}
+
 .heading-6 {
     font-size: 2rem;
     font-weight: bold;
@@ -197,6 +203,114 @@ body {
 
 /* end feature */
 
+/* start cta  */
+.cta {
+    margin: 6rem 0rem;
+    background-color: var(--bs-gray-100);
+}
+
+.cta__container {
+    padding: 12.8rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 38rem;
+    gap: 4rem
+}
+
+.cta__text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+    width: 90%;
+}
+
+.cta__title {
+    font-size: 1.6rem;
+    color: var(--bs-warning);
+}
+
+.cta__text {
+    margin: 2rem 0;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: var(--bs-gray);
+}
+
+.quote {
+    position: relative;
+    width: 100%;
+    max-width: 45.8rem;
+    padding: 3.5rem 5.4rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.78),
+            rgba(0, 0, 0, 0.78)),
+        url("../imgs/form-bg.avif") center / cover no-repeat;
+    color: #fff;
+}
+
+.quote__title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+
+.quote__form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.quote__input {
+    width: 100%;
+    height: 4.2rem;
+    padding: 1rem 1.2rem;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 0;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    font-family: inherit;
+    font-size: 1.5rem;
+}
+
+.quote__input::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+.quote__input:focus {
+    border-color: #ffb600;
+}
+
+.quote__input option {
+    background-color: #222;
+    color: #fff;
+}
+
+.quote__textarea {
+    height: 13.5rem;
+    resize: vertical;
+}
+
+.quote__button {
+    width: 100%;
+    min-height: 5.3rem;
+    margin-top: 0.1rem;
+    border: none;
+    background-color: #ffb600;
+    color: #111;
+    font-family: inherit;
+    font-size: 1.6rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.quote__button:hover {
+    background-color: #e6a400;
+}
+
+/* end cta  */
+
 /* start maket  */
 .markets {
     padding: 12.8rem 2rem 0;
@@ -230,6 +344,36 @@ body {
 }
 
 /* end maket  */
+
+/* start projects  */
+.projects {
+    padding: 9.8rem 2rem;
+}
+
+.projects__container {
+    margin: 3.5rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2.5rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.projects__container img {
+    display: block;
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.projects__container img:hover {
+    transform: scale(1.03);
+    filter: brightness(0.80);
+}
+
+/* end projects  */
 
 /* start footer */
 .footer {
