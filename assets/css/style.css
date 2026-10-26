@@ -472,6 +472,59 @@ body {
 
 /* end projects  */
 
+/* start blog  */
+.blogs {
+    padding: 5rem 2rem 0;
+}
+
+.blogs__container {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.blog__img-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.blog__user-box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user__name {
+    font-size: 1.6rem;
+}
+
+.blog__text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.blog__title {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.blog__text {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: var(--bs-gray);
+}
+
+/* end blog  */
+
 /* start footer */
 .footer {
     margin-top: 9rem;
