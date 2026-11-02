@@ -54,7 +54,20 @@
                     <a href="#" class="navbar__link">PROJECT</a>
                 </li>
                 <li>
-                    <a href="#" class="navbar__link">BLOG</a>
+                    <a href="#" class="navbar__toggle">BLOG
+                        <i class="fa-solid fa-chevron-down navbar__toggle__icon"></i>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="#">OUR MENU</a>
+                        </li>
+                        <li>
+                            <a href="#">ABOUT US</a>
+                        </li>
+                        <li>
+                            <a href="#">SERVICES</a>
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <a href="#" class="navbar__link">CONTACT</a>
@@ -248,6 +261,101 @@
     </section>
     <!-- end prpjects  -->
 
+    <!-- start testimonials  -->
+    <section class="testimonial">
+        <div class="testimonial__overlay"></div>
+        <div class="container">
+            <div class="testimonial__header">
+                <h2 class="testimonial__title">
+                    Enjoy our Clients’ Feedback
+                </h2>
+
+                <p class="testimonial__subtitle">
+                    Plant managers and site owners on working with us.
+                </p>
+            </div>
+
+            <div class="testimonial__slider">
+                <div class="testimonial__media">
+                    <img class="testimonial__image" src="./assets/imgs/feedback-bg.jpg" alt="Industrial project">
+                    <button class="testimonial__play">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+                </div>
+
+                <div class="testimonial__content">
+                    <div class="testimonial__item active">
+                        <div class="testimonial__info">
+                            <h3 class="testimonial__name">Fannie Rowe</h3>
+
+                            <div class="testimonial__stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial__text">
+                            They rebuilt our packaging line over a single
+                            weekend shutdown. The crew was on time, the site
+                            was clean, and production restarted.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__item">
+                        <div class="testimonial__info">
+                            <h3 class="testimonial__name">John Anderson</h3>
+
+                            <div class="testimonial__stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial__text">
+                            Their engineering team delivered outstanding
+                            results. Every stage of the project was handled
+                            professionally and efficiently.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__item">
+                        <div class="testimonial__info">
+                            <h3 class="testimonial__name">Sarah Mitchell</h3>
+
+                            <div class="testimonial__stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial__text">
+                            A reliable partner with excellent communication.
+                            They completed our industrial installation
+                            ahead of schedule.
+                        </p>
+                    </div>
+
+                    <!-- DOTS -->
+                    <div class="testimonial__dots">
+                        <button class="testimonial__dot active" data-slide="0"></button>
+                        <button class="testimonial__dot" data-slide="1"></button>
+                        <button class="testimonial__dot" data-slide="2"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end testimonials  -->
+
     <!-- start blog  -->
     <section class="blogs container">
         <div class="sec-top">
@@ -360,6 +468,7 @@
         </div>
     </footer>
     <!-- end footer -->
+    <SCript src="./assets/js/script.js"></SCript>
 </body>
 
 </html>
